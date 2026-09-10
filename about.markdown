@@ -1,18 +1,12 @@
 ---
-layout: page
+layout: archive
 title: About
 permalink: /about/
 ---
+# Hi! I am Nada 👋
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+I began my journey in technology through Computer Science, where I discovered a passion for problem-solving and building things that make a real difference. Through coursework, personal projects, and continuous learning, I've developed an interest in how technology can be used to solve complex challenges and improve everyday experiences.
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+I'm passionate about software engineering, data-driven solutions, artificial intelligence, and healthcare technology. I enjoy exploring how these fields intersect to create impactful products, and I'm especially interested in building technology that is both innovative and meaningful.
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
-
-
-[jekyll-organization]: https://github.com/jekyll
+I'm currently seeking opportunities to grow as a developer, collaborate on exciting projects, and gain experience across different areas of technology while continuing to discover where I can make the greatest impact.
