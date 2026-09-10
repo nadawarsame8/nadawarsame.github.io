@@ -1,5 +1,5 @@
 anime({
-    targets: ".archive__item",
+    targets: ".welcome-block",
     translateY: [
         { value: 0, duration: 300 },
         { value: -18, duration: 450 },
