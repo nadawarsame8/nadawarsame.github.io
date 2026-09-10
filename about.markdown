@@ -16,9 +16,4 @@ I'm currently seeking opportunities to grow as a developer, collaborate on excit
 ### My Technical Skills
 {% include technicalskills.md %}
 ### Soft Skills
-| Skill | Level |
-| ---- | ---- |
-{% assign skills = site.data.skills.soft | sort: "title" %}
-{% for skill in skills %}
-| {{ skill.title }} | {{ skill.level }} |
-{% endfor %}
+{% include softskills.md %}
