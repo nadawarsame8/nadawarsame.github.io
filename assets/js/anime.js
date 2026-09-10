@@ -1,13 +1,15 @@
 anime({
-    targets: [".grid__item", ".list__item"],
-    scale: [
-        { value: 1, duration: 800 },
-        { value: 1.1, duration: 200 },
-        { value: 1, duration: 800 },
+    targets: ".archive__item",
+    translateY: [
+        { value: 0, duration: 300 },
+        { value: -18, duration: 450 },
+        { value: 0, duration: 500 },
+        { value: -8, duration: 250 },
+        { value: 0, duration: 350 },
     ],
-    easing: "easeInOutSine",
+    easing: "easeOutBounce",
     delay: function (el, i, l) {
-        return i * 200;
+        return i * 180;
     },
     loop: false,
 });
