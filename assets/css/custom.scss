@@ -54,3 +54,37 @@ input[type="submit"]:hover {
   text-shadow: none !important;
   box-shadow: none !important;
 }
+/* Homepage hero layout only */
+.layout--home .sidebar {
+  display: none !important;
+}
+
+.layout--home .page {
+  width: 100% !important;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.layout--home .page__content {
+  max-width: 900px;
+  margin: 4rem auto;
+  padding: 4rem;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 8px 24px rgba(29, 53, 87, 0.08) !important;
+}
+
+.layout--home .page__content h1 {
+  margin-top: 0;
+  margin-bottom: 1.5rem;
+  color: var(--navy) !important;
+  font-size: clamp(2.5rem, 6vw, 4.5rem);
+  line-height: 1.1;
+}
+
+@media (max-width: 600px) {
+  .layout--home .page__content {
+    margin: 2rem 1rem;
+    padding: 2rem 1.5rem;
+  }
+}
