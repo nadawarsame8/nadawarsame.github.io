@@ -1,6 +1,50 @@
 <link rel="stylesheet" href="{{ '/assets/css/custom.css' | relative_url }}">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Caacupe+One&family=Dosis:wght@200..800&family=Loved+by+the+King&family=WindSong:wght@400;500&display=swap" rel="stylesheet">
+<style>
+:root {
+  --navy: #1D3557;
+  --off-white: #FAFAFA;
+  --berry: #A83979;
+}
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js"></script>
+html,
+body {
+  background: var(--off-white) !important;
+  color: var(--navy) !important;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: var(--navy) !important;
+}
+
+.masthead,
+.greedy-nav,
+.page__footer {
+  background: var(--navy) !important;
+  color: #fff !important;
+}
+
+a,
+.archive__item-title a {
+  color: var(--berry) !important;
+}
+
+button,
+.btn,
+input[type="submit"] {
+  background: var(--berry) !important;
+  border-color: var(--berry) !important;
+  color: #fff !important;
+}
+
+button:hover,
+.btn:hover,
+input[type="submit"]:hover {
+  background: var(--navy) !important;
+  border-color: var(--navy) !important;
+}
+
+* {
+  text-shadow: none !important;
+  box-shadow: none !important;
+}
+</style>
