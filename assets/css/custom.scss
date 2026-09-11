@@ -10,3 +10,57 @@
 @import "nav";
 @import "post";
 @import "taxonomy";
+// ...existing imports...
+
+:root {
+  --navy: #1D3557;
+  --off-white: #FAFAFA;
+  --berry: #A83979;
+}
+
+body {
+  background: var(--off-white);
+  color: var(--navy);
+}
+
+h1, h2, h3, h4, h5, h6,
+.masthead,
+.greedy-nav,
+.page__footer {
+  color: var(--navy);
+}
+
+a,
+.archive__item-title a {
+  color: var(--berry);
+}
+
+a:hover,
+a:focus {
+  color: var(--navy);
+}
+
+button,
+.btn,
+input[type="submit"] {
+  background: var(--berry);
+  border-color: var(--berry);
+  color: #fff;
+}
+
+button:hover,
+.btn:hover,
+input[type="submit"]:hover {
+  background: var(--navy);
+  border-color: var(--navy);
+}
+
+.greedy-nav a:hover,
+.greedy-nav .visible-links a:hover {
+  color: var(--berry);
+}
+
+* {
+  text-shadow: none;
+  box-shadow: none;
+}
