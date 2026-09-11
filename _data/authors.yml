@@ -1,0 +1,8 @@
+Nada Warsame:
+  name        : "Nada Warsame"
+  bio         : "Self-taught programmer interested in software engineering, data, AI, and healthcare technology."
+  avatar      : "/assets/images/Photograph.JPG"
+  links:
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/nadawarsame8"
