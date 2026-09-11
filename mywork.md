@@ -1,6 +1,8 @@
 ---
 title: "Projects"
 layout: archive
+author: Nada Warsame
+author_profile: true
 permalink: /mywork/
 ---
 
