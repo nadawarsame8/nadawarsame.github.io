@@ -1,6 +1,8 @@
 ---
 layout: home
 title: ""
+author: Nada Warsame
+author_profile: true
 ---
 
 <section class="welcome-block" aria-labelledby="welcome-title">
@@ -9,3 +11,8 @@ title: ""
 	<p class="welcome-copy">A small space for my work, ideas, and the things I am learning along the way.</p>
 	<a class="welcome-link" href="{{ '/about/' | relative_url }}">Meet Nada <span aria-hidden="true">&rarr;</span></a>
 </section>
+
+---
+![nada warsame](/assets/images/Photograph.JPG){:.avatar}
+# Hi! I'm Nada Warsame
+i am a self-taught programmer. Take a look at my projects below or go to [My Work] (/mywork) to see a categorised list.

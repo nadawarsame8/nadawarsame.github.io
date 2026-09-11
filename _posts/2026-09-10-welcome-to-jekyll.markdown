@@ -2,8 +2,11 @@
 layout: post
 title:  "Welcome to Jekyll!"
 date:   2026-09-10 17:58:41 +0000
-categories: research
+categories: work
 highlight_home: true
+
+tags: health
+description:this is an an article about health. 
 ---
 You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
 
