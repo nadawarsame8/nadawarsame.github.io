@@ -12,16 +12,22 @@ layout: archive
 {% else %}
   {% assign posts = site.posts %}
 {% endif %}
+
 {% assign entries_layout = page.entries_layout | default: 'grid' %}
 <div class="entries-{{ entries_layout }}">
-{% assign featured_posts = posts | where: "highlight_home", true %}
-{% assign work_posts = featured_posts | where_exp: "post", "post.categories contains 'work'" %}
-{% if work_posts.size > 0 %}
-
-  {% include documents-collection.html locale=locale entries=work_posts type=entries_layout %}
-{% endif %}
+{% for post in posts %}
+  {% if post.highlight_home and post.categories contains 'work' %}
+    {% include archive-single.html type=entries_layout %}
+  {% endif %}
+{% endfor %}
 </div>
 
-<h3 class="archive__subtitle">{{ site.data.ui-text[locale].recent_posts | default: "Research" }}</h3>
-
+<h3 class="archive__subtitle">{{ site.data.ui-text[locale].recent_posts | default: "My Favorite Articles" }}</h3>
+<div class="entries-{{ entries_layout }}">
+{% for post in posts %}
+  {% if post.highlight_home and post.categories contains 'research' %}
+    {% include archive-single.html type=entries_layout %}
+  {% endif %}
+{% endfor %}
+</div>
 {% include paginator.html locale=locale %}
