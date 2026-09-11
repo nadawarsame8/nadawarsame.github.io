@@ -1,4 +1,9 @@
-<link rel="stylesheet" href="{{ '/assets/css/custom.css' | relative_url }}">
+cd /workspaces/nadawarsame.github.io
+
+git show HEAD^:_includes/head/custom.html > _includes/head/custom.html
+
+cat >> _includes/head/custom.html <<'EOF'
+
 <style>
 :root {
   --navy: #1D3557;
@@ -6,8 +11,7 @@
   --berry: #A83979;
 }
 
-html,
-body {
+html, body {
   background: var(--off-white) !important;
   color: var(--navy) !important;
 }
@@ -16,29 +20,21 @@ h1, h2, h3, h4, h5, h6 {
   color: var(--navy) !important;
 }
 
-.masthead,
-.greedy-nav,
-.page__footer {
+.masthead, .greedy-nav, .page__footer {
   background: var(--navy) !important;
-  color: #fff !important;
 }
 
-a,
-.archive__item-title a {
+a, .archive__item-title a {
   color: var(--berry) !important;
 }
 
-button,
-.btn,
-input[type="submit"] {
+button, .btn, input[type="submit"] {
   background: var(--berry) !important;
   border-color: var(--berry) !important;
   color: #fff !important;
 }
 
-button:hover,
-.btn:hover,
-input[type="submit"]:hover {
+button:hover, .btn:hover, input[type="submit"]:hover {
   background: var(--navy) !important;
   border-color: var(--navy) !important;
 }
@@ -48,3 +44,8 @@ input[type="submit"]:hover {
   box-shadow: none !important;
 }
 </style>
+EOF
+
+git add _includes/head/custom.html
+git commit -m "Preserve site assets and update colours"
+git push
