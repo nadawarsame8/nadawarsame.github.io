@@ -54,11 +54,13 @@ input[type="submit"]:hover {
   text-shadow: none !important;
 }
 /* Reduce homepage hero image by 40% */
+.layout--home .page__hero img,
 .layout--home .page__hero-image,
 .layout--home .page__content > p:first-of-type img {
   width: 60% !important;
   max-width: 60% !important;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+  height: auto !important;
+  display: block !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
 }
