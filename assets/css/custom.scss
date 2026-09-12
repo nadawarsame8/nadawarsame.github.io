@@ -116,14 +116,7 @@ input[type="submit"]:hover {
   display: flex;
   width: 50%;
   margin-bottom: 7rem;
-  opacity: 0;
-  transform: translateY(32px);
-  transition: opacity .7s ease, transform .7s ease;
-}
-
-.timeline-item.is-visible {
-  opacity: 1;
-  transform: translateY(0);
+  transition: transform .7s ease;
 }
 
 .timeline-item--left {
