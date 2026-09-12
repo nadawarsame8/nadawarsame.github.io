@@ -13,3 +13,20 @@ anime({
     },
     loop: false,
 });
+
+const timelineItems = document.querySelectorAll(".timeline-item");
+
+if (timelineItems.length && "IntersectionObserver" in window) {
+    const timelineObserver = new IntersectionObserver((entries, observer) => {
+        entries.forEach((entry) => {
+            if (entry.isIntersecting) {
+                entry.target.classList.add("is-visible");
+                observer.unobserve(entry.target);
+            }
+        });
+    }, { threshold: 0.16 });
+
+    timelineItems.forEach((item) => timelineObserver.observe(item));
+} else {
+    timelineItems.forEach((item) => item.classList.add("is-visible"));
+}
