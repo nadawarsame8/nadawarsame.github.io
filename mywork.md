@@ -4,12 +4,22 @@ layout: archive
 author: Nada Warsame
 author_profile: true
 permalink: /mywork/
+classes: mywork-page
 ---
 
 <div class="journey-intro">
 	<p class="journey-eyebrow">A living record of becoming</p>
 	<h1>From making machines to making meaning.</h1>
 	<p>I started by learning how hardware behaves. Along the way, software became a new way to ask questions, collaborate, and build useful things. This is the story so far.</p>
+</div>
+
+<div class="journey-feature" aria-label="Journey preview">
+	<img src="{{ '/assets/images/Photograph.JPG' | relative_url }}" alt="Nada Warsame continuing her technology journey">
+	<div>
+		<p class="journey-feature__label">The thread through every chapter</p>
+		<h2>Curiosity, translated into action.</h2>
+		<p>From a robot on a competition table to ideas that could improve real lives, every step has added a new way of seeing what technology can do.</p>
+	</div>
 </div>
 
 <div class="timeline" aria-label="Nada's technology journey">
