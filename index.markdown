@@ -10,8 +10,8 @@ author_profile: true
 	<h1 id="welcome-title">Welcome to Nada</h1>
 	<p class="welcome-copy">A small space for my work, ideas, and the things I am learning along the way.</p>
 	<a class="welcome-link" href="{{ '/about/' | relative_url }}">Meet Nada <span aria-hidden="true">&rarr;</span></a>
+	<a class="welcome-link" href="{{ '/mywork/' | relative_url }}">View My Work <span aria-hidden="true">&rarr;</span></a>
 </section>
-
 ---
 ![nada warsame](/assets/images/Photograph.JPG){:.avatar}
 # Hi! I'm Nada Warsame
