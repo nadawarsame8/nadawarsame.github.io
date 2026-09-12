@@ -9,16 +9,17 @@ author_profile: true
 ---
 
 <div class="leadership-hero">
-	<p class="leadership-eyebrow">Beyond the build</p>
 	<h1>Leadership &amp; Community</h1>
-	<p class="leadership-dek">Supporting others, creating opportunities, and building impact beyond technology.</p>
-	<p>Alongside my interests in software engineering and technology, I am passionate about mentoring, outreach, education, and community engagement. Through leadership experiences, mentoring programmes, and healthcare-related experiences, I have developed a strong appreciation for the importance of people, communication, and service.</p>
+	<p class="leadership-dek">Mentoring, outreach, and care shaped by a belief in making opportunity feel closer.</p>
 </div>
 
-<div class="impact-grid" aria-label="Leadership and community highlights">
-	<div class="impact-highlight"><strong>People first</strong><span>Mentoring with patience, clarity, and encouragement.</span></div>
-	<div class="impact-highlight"><strong>Wider access</strong><span>Helping communities find routes into opportunity.</span></div>
-	<div class="impact-highlight"><strong>Service mindset</strong><span>Learning through empathy, teamwork, and care.</span></div>
+<div class="impact-grid" aria-label="Leadership and community stories">
+	<figure class="impact-image-card">
+		<img src="{{ '/assets/images/Photograph.JPG' | relative_url }}" alt="Nada Warsame in a city setting">
+		<figcaption><span>People first</span><strong>Make space for the next person.</strong></figcaption>
+	</figure>
+	<article class="impact-story impact-story--access"><span>Wider access</span><strong>Helping communities find routes into opportunity.</strong><a href="#mentoring-title">Meet the people behind the work</a></article>
+	<article class="impact-story impact-story--service"><span>Service mindset</span><strong>Learning through empathy, teamwork, and care.</strong><a href="#healthcare-title">See what shaped it</a></article>
 </div>
 
 <section class="leadership-section" aria-labelledby="mentoring-title">
