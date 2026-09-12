@@ -13,6 +13,7 @@ author_profile: true
 	<a class="welcome-link" href="{{ '/mywork/' | relative_url }}">View My Work <span aria-hidden="true">&rarr;</span></a>
 </section>
 ---
-![nada warsame](/assets/images/Photograph.JPG){:.avatar}
 # Hi! I'm Nada Warsame
 i am a self-taught programmer. Take a look at my projects below or go to [My Work] (/mywork) to see a categorised list.
+
+![nada warsame](/assets/images/Photograph.JPG){:.avatar}

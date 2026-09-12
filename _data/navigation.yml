@@ -6,7 +6,7 @@ main:
     url: "/mywork/"
   - title: "Research"
     url: "/#research"
-  - title: "Contact"
+  - title: "Leadership & Community"
     url: "/contact"
   - title: "About Me"
     url: "/about"

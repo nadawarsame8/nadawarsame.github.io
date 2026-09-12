@@ -81,3 +81,18 @@ if (lightbox) {
         if (event.key === "Escape") closeLightbox();
     });
 }
+
+document.querySelectorAll("[data-leadership-details]").forEach((button) => {
+    button.addEventListener("click", () => {
+        const details = button.closest(".leadership-copy").querySelector("details");
+        details.open = !details.open;
+        button.textContent = details.open ? "Close Details" : "Read More";
+    });
+});
+
+document.querySelectorAll("[data-leadership-media]").forEach((button) => {
+    button.addEventListener("click", () => {
+        const label = button.dataset.leadershipMedia;
+        window.alert(`${label} can be added when the relevant photos are available.`);
+    });
+});
